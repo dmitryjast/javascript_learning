@@ -11,11 +11,11 @@
 
 // Debugging при помощи команды console.log
 
-var array = [1, 2, 3, 4];
+// var array = [1, 2, 3, 4];
 
-for (var i = 0; i < array.length; i++) {
-	console.log('array[i]',array[i]);
-}
+// for (var i = 0; i < array.length; i++) {
+// 	console.log('array[i]',array[i]);
+// }
 
 
 // Если хотим отследить итератор, в каком значении он
