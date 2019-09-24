@@ -170,28 +170,28 @@
 
 // округление к меньшему
 
-var newNumber = 12.3;
+// var newNumber = 12.3;
 
-var roundResult = Math.floor(newNumber);
+// var roundResult = Math.floor(newNumber);
 
-console.log(roundResult);
+// console.log(roundResult);
 
 
 // округление к большему
 
-var newNumber = 12.3;
+// var newNumber = 12.3;
 
-var roundResult = Math.ceil(newNumber);
+// var roundResult = Math.ceil(newNumber);
 
-console.log(roundResult);
+// console.log(roundResult);
 
 // округление автоматически - куда ближе
 
-var newNumber = 12.3;
+// var newNumber = 12.3;
 
-var roundResult = Math.round(newNumber);
+// var roundResult = Math.round(newNumber);
 
-console.log(roundResult);
+// console.log(roundResult);
 
 
 
@@ -207,12 +207,54 @@ console.log(roundResult);
 // console.log(arr);
 
 
+
 // Массив можно объеденять в строку
 
-var arr = [1, 2, 3, 4, 'test'];
+// var arr = [1, 2, 3, 4, 'test'];
 
-var str = arr.join();
+// var str = arr.join(' : ');
+
+// console.log(arr);
+
+// можно вставить разделитель (в примере ' : ')
+
+// var arr = [1, 2, 3, 4, 'test'];
+
+// var str = arr.join(' : ');
+
+// var newArr = str.split('');
+
+// console.log(str);
+// console.log(newArr);
+
+
+
+// Методы для сортировки
+
+// Не отсортированный массив
+// var arr = [1, 3, 5, 2, 7];
+//
+// var newArr = arr.sort();
+//
+// console.log(newArr);
+//
+// // Можно указать, по какому методу сортировать
+//
+// var arr = [1, 3, 5, 2, 7];
+//
+// var newArr = arr.sort(function (a, b) {
+//
+// });
+//
+// console.log(newArr);
+
+// Добавить в конце массива строку
+var arr = [1, 3, 5, 2, 7];
+
+arr.push('test string');
+
+// Удалить последнее значение в массиве
+
+arr.pop();
 
 console.log(arr);
-
-27.27
