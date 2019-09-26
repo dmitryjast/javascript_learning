@@ -2,11 +2,25 @@
 // Создали пустой массив
 
 var names = [];
+Var addname;
 
 
 // Создали цикл, цикл запущили в массив, при помощи console.log смотрим результат
 
 создать цикл
+
+For (int index =0;index<4;index++){
+ 
+    addName = prompt('Enter additional name');
+    If (names.contains(addname)){
+       Alert('error')
+     } Else {
+        Names.add(addname)
+       Alert ('Hello '+ addname)
+      }
+
+
+}
 
 names.push(цикл);
 
