@@ -22,3 +22,4 @@ for (var i = 0; i < 5; i++) {
 
 
 // https://learn.javascript.ru/ifelse
+// https://learn.javascript.ru/array
