@@ -1,29 +1,24 @@
 
-// Создали пустой массив
+// Создали пустой массив, создали пустую переменную
 
 var names = [];
 
 
-// Создали цикл, цикл запущили в массив, при помощи console.log смотрим результат
-
-создать цикл
-
-names.push(цикл);
+// Далее создали цикл с условием, где итератор = 0, повторение цикла 5 раз, шаг увеличения +1. При помощи Promt наполняем массив из 5 имен.
 
 
+for (var i = 0; i < 5; i++) {
+    names[i] = prompt('Please enter your name');
+ }
+ 
+ 
+ // Прописываем условие и при помощи Promt выводим окно для ввода Login name. 
+ 
+ if (enterName = prompt('Please, enter your login name')) {
+	 alert(names.indexOf(enterName) != -1 ? enterName + ', you have successfully logged' : 'Error');
+ }
+ 
 
-console.log('names', names);
 
 
-// Выводим форму для ввода имени, информацию с формы пушим в массив, при помощи console.log смотрим результат добавления дополнительного имени
-
-
-addName = prompt('Enter additional name');
-
-names.push(addName);
-
-console.log('names', names);
-
-
-// Создаем функцию для сравнения этого имени с массивом. С условием: нет совпадения - выдавать с помощью alert сообщение об ошибке, если есть выводить сообщение "Имя пользователя, вы успешно вошли"
-
+// https://learn.javascript.ru/ifelse
